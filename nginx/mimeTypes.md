@@ -1,8 +1,6 @@
 # Mime Types
 
-types {
-
-  # Data interchange
+## Data interchange
 
     application/atom+xml                  atom;
     application/json                      json map topojson;
@@ -12,21 +10,21 @@ types {
     application/xml                       rdf xml;
 
 
-  # JavaScript
+## JavaScript
 
     # Normalize to standard type.
     # https://tools.ietf.org/html/rfc4329#section-7.2
     application/javascript                js;
 
 
-  # Manifest files
+## Manifest files
 
     application/manifest+json             webmanifest;
     application/x-web-app-manifest+json   webapp;
     text/cache-manifest                   appcache;
 
 
-  # Media files
+## Media files
 
     audio/midi                            mid midi kar;
     audio/mp4                             aac f4a f4b m4a;
@@ -55,15 +53,15 @@ types {
     video/x-ms-asf                        asf asx;
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
-
+    
     # Serving `.ico` image files with a different media type
     # prevents Internet Explorer from displaying then as images:
     # https://github.com/h5bp/html5-boilerplate/commit/37b5fec090d00f38de64b591bcddcb205aadf8ee
-
+    
     image/x-icon                          cur ico;
 
 
-  # Microsoft Office
+## Microsoft Office
 
     application/msword                                                         doc;
     application/vnd.ms-excel                                                   xls;
@@ -73,12 +71,12 @@ types {
     application/vnd.openxmlformats-officedocument.presentationml.presentation  pptx;
 
 
-  # Web fonts
+## Web fonts
 
     application/font-woff                 woff;
     application/font-woff2                woff2;
     application/vnd.ms-fontobject         eot;
-
+    
     # Browsers usually ignore the font media types and simply sniff
     # the bytes to figure out the font type.
     # https://mimesniff.spec.whatwg.org/#matching-a-font-type-pattern
@@ -86,12 +84,12 @@ types {
     # However, Blink and WebKit based browsers will show a warning
     # in the console if the following font types are served with any
     # other media types.
-
+    
     application/x-font-ttf                ttc ttf;
     font/opentype                         otf;
 
 
-  # Other
+## Other
 
     application/java-archive              ear jar war;
     application/mac-binhex40              hqx;
@@ -136,5 +134,3 @@ types {
     text/vnd.wap.wml                      wml;
     text/vtt                              vtt;
     text/x-component                      htc;
-
-}
