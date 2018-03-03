@@ -18,6 +18,14 @@
             "items":    [
                 {
                     "category": "TChalla",
+                    "title":    "Abstract",
+                    "path":     "linux/abstract.md",
+                    "nav":      "Linux-Abstract",
+                    "status":   310,
+                    "items":    []
+                },
+                {
+                    "category": "TChalla",
                     "title":    "Conceptions",
                     "path":     "linux/linux.md",
                     "nav":      "Linux-Conceptions",
