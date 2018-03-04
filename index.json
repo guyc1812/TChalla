@@ -43,37 +43,6 @@
         },
         {
             "category": "TChalla",
-            "title":    "Http",
-            "path":     "",
-            "nav":      "",
-            "status":   310,
-            "items":    [
-                {
-                    "category": "TChalla",
-                    "title":    "Conceptions",
-                    "path":     "http/http.md",
-                    "nav":      "Http-Conceptions",
-                    "status":   310,
-                    "items":    []
-                },{
-                    "category": "TChalla",
-                    "title":    "Http Status",
-                    "path":     "http/http-status.md",
-                    "nav":      "Http-Status",
-                    "status":   310,
-                    "items":    []
-                },{
-                    "category": "TChalla",
-                    "title":    "Http Ajax",
-                    "path":     "http/http-ajax.md",
-                    "nav":      "Http-Ajax",
-                    "status":   310,
-                    "items":    []
-                }
-            ]
-        },
-        {
-            "category": "TChalla",
             "title":    "Nginx",
             "path":     "",
             "nav":      "",
