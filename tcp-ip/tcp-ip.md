@@ -8,7 +8,7 @@
 
 ## TCP Head
 
-[head](http://guyuchen.com/deadpool/images/TCP-Header-01.jpg)
+![head](http://guyuchen.com/deadpool/images/TCP-Header-01.jpg)
 
 * 五元组: protocol, src_ip, src_port, dst_ip, dst_port
 * TCP: protocol(TCP), src_port, dst_port
@@ -19,15 +19,15 @@
 
 Others:
 
-[others](http://guyuchen.com/deadpool/images/TCP-Header-02.jpg)
+![others](http://guyuchen.com/deadpool/images/TCP-Header-02.jpg)
 
 ## TCP/IP State Machine
 
-[State](http://guyuchen.com/deadpool/images/tcpfsm.png)
+![State](http://guyuchen.com/deadpool/images/tcpfsm.png)
 
 ## TCP/IP Connection
 
-[Connection](http://guyuchen.com/deadpool/images/tcpIpConnection.png)
+![Connection](http://guyuchen.com/deadpool/images/tcpIpConnection.png)
 
 * **为什么建链接要3次握手**
 
@@ -40,7 +40,7 @@ Others:
 
     因为TCP是全双工的，所以，发送方和接收方都需要Fin和Ack，只不过，有一方是被动的。<br>
 
-    [](http://guyuchen.com/deadpool/images/tcpclosesimul.png)
+    ![](http://guyuchen.com/deadpool/images/tcpclosesimul.png)
 
 * **关于建连接时SYN超时**
     
@@ -87,14 +87,14 @@ Others:
 
     发送方发出了1，2，3，4，5份数据，第一份先到送了，于是就ack回2，结果2因为某些原因没收到，3到达了，于是还是ack回2，后面的4和5都到了，但是还是ack回2，因为2还是没有收到，于是发送端收到了三个ack=2的确认，知道了2还没有到，于是就马上重转2。然后，接收端收到了2，此时因为3，4，5都收到了，于是ack回6。示意图如下：
 
-    [](http://guyuchen.com/deadpool/images/FASTIncast021.png)
+    ![](http://guyuchen.com/deadpool/images/FASTIncast021.png)
 
 * **SACK (Selective Acknowledgment)**
 
     这种方式需要在TCP头里加一个SACK的东西，ACK还是Fast Retransmit的ACK，SACK则是汇报收到的数据碎版。<br>
     这个协议需要两边都支持。在 Linux下，可以通过tcp_sack参数打开这个功能。<br>
 
-    [](http://guyuchen.com/deadpool/images/tcp_sack_example-900x507.jpg)
+    ![](http://guyuchen.com/deadpool/images/tcp_sack_example-900x507.jpg)
 
 ## 超时时长
 
@@ -112,18 +112,18 @@ TCP头里有一个字段叫Window，又叫Advertised-Window，这个字段是接
 
 * **发送端**
 
-    [](http://guyuchen.com/deadpool/images/tcpswwindows.png)
+    ![](http://guyuchen.com/deadpool/images/tcpswwindows.png)
 
     #1已收到ack确认的数据。<br>
     #2发还没收到ack的。<br>
     #3在窗口中还没有发出的（接收方还有空间）。<br>
     #4窗口以外的数据（接收方没空间）
 
-    [](http://guyuchen.com/deadpool/images/tcpswslide.png)
+    ![](http://guyuchen.com/deadpool/images/tcpswslide.png)
 
 * **接受端**
 
-    [](http://guyuchen.com/deadpool/images/tcpswflow.png)
+    ![](http://guyuchen.com/deadpool/images/tcpswflow.png)
 
 * **DDoS攻击**
 
@@ -144,7 +144,7 @@ TCP通过一个timer采样了RTT并计算RTO，但是，如果网络上的延时
     1. 每当过了一个RTT，cwnd = cwnd*2; 呈指数让升
     1. 还有一个ssthresh（slow start threshold），是一个上限，当cwnd >= ssthresh时，就会进入“拥塞避免算法”
 
-    [](http://guyuchen.com/deadpool/images/tcp.slow_.start_.jpg)
+    ![](http://guyuchen.com/deadpool/images/tcp.slow_.start_.jpg)
 
 * **拥塞避免**
 
@@ -185,4 +185,8 @@ TCP通过一个timer采样了RTT并计算RTO，但是，如果网络上的延时
     * 如果收到了新的Ack，那么，cwnd = sshthresh ，然后就进入了拥塞避免的算法了。
 
 
+### Reference
+
+[TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html)
+[TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
 
