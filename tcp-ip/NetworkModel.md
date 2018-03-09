@@ -2,7 +2,7 @@
 
 ## Summary
 
-![Summary](http://guyuchen.com/deadpool/images/tcpIpSummary.jpg)
+[Summary](http://guyuchen.com/deadpool/images/tcpIpSummary.jpg)
 
 ## OSI and TCP/IP
 
@@ -12,6 +12,6 @@
 **IEEE** (Institute of Electrical and Electronics Engineers) - <br>
 电气和电子工程师协会
 
-![osi1](http://guyuchen.com/deadpool/images/networkOSI1.png)
+[osi1](http://guyuchen.com/deadpool/images/networkOSI1.png)
 
-![osi2](http://guyuchen.com/deadpool/images/networkOSI2.png)
+[osi2](http://guyuchen.com/deadpool/images/networkOSI2.png)
