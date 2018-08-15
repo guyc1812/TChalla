@@ -1,3 +1,3 @@
 # Linux Abstract
 
-![linux](http://guyuchen.com/deadpool/images/linux.JPG)
+![linux](https://oss.guyuchen.com/deadpool/images/linux.JPG)

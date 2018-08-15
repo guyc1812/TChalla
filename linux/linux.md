@@ -5,7 +5,7 @@ LAMP (Linux + Apache + MySQL + PHP) 或  LNMP (Linux + Nginx+ MySQL + PHP)
 
 ### linux 启动：
 
-![linuxBootStrap](http://guyuchen.com/deadpool/github/linuxBootStrap.png)
+![linuxBootStrap](https://oss.guyuchen.com/deadpool/github/linuxBootStrap.png)
 
 1. BIOS
 
@@ -83,7 +83,7 @@ LAMP (Linux + Apache + MySQL + PHP) 或  LNMP (Linux + Nginx+ MySQL + PHP)
 
 ### linux目录结构
 
-![linuxDirs](http://guyuchen.com/deadpool/github/linuxDirs.png)
+![linuxDirs](https://oss.guyuchen.com/deadpool/github/linuxDirs.png)
 
 * /   根目录
 * etc 系统配置文件存放的目录
