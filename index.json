@@ -79,6 +79,13 @@
                     "nav":      "k8s-conceptions",
                     "status":   310,
                     "items":    []
+                },{
+                    "category": "TChalla",
+                    "title":    "Pod",
+                    "path":     "k8s/03.pod.md",
+                    "nav":      "k8s-pod",
+                    "status":   310,
+                    "items":    []
                 }
             ]
         },
