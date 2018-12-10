@@ -68,14 +68,14 @@
                 {
                     "category": "TChalla",
                     "title":    "容器本质",
-                    "path":     "k8s/01.容器.md",
+                    "path":     "k8s/01.container.md",
                     "nav":      "k8s-container",
                     "status":   310,
                     "items":    []
                 },{
                     "category": "TChalla",
                     "title":    "k8s概述",
-                    "path":     "k8s/02.k8s概述.md",
+                    "path":     "k8s/02.k8sConceptions.md",
                     "nav":      "k8s-conceptions",
                     "status":   310,
                     "items":    []
