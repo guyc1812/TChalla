@@ -20,7 +20,7 @@
                     "category": "TChalla",
                     "title":    "Network Model",
                     "path":     "tcp-ip/NetworkModel.md",
-                    "nav":      "TcpIp-NetworkModel",
+                    "nav":      "tcpip-network-model",
                     "status":   310,
                     "items":    []
                 },
@@ -28,7 +28,7 @@
                     "category": "TChalla",
                     "title":    "Conceptions",
                     "path":     "tcp-ip/tcp-ip.md",
-                    "nav":      "TcpIp-TcpIp",
+                    "nav":      "tcpip-tcpip",
                     "status":   310,
                     "items":    []
                 }
@@ -45,14 +45,14 @@
                     "category": "TChalla",
                     "title":    "Conceptions",
                     "path":     "nginx/nginx.md",
-                    "nav":      "Nginx-Conceptions",
+                    "nav":      "nginx-conceptions",
                     "status":   310,
                     "items":    []
                 },{
                     "category": "TChalla",
                     "title":    "Mime Types",
                     "path":     "nginx/mimeTypes.md",
-                    "nav":      "Nginx-mimeTypes",
+                    "nav":      "nginx-mimeTypes",
                     "status":   310,
                     "items":    []
                 }
@@ -60,23 +60,23 @@
         },
         {
             "category": "TChalla",
-            "title":    "Nginx",
+            "title":    "Kubernetes",
             "path":     "",
             "nav":      "",
             "status":   310,
             "items":    [
                 {
                     "category": "TChalla",
-                    "title":    "Conceptions",
-                    "path":     "nginx/nginx.md",
-                    "nav":      "Nginx-Conceptions",
+                    "title":    "容器本质",
+                    "path":     "k8s/01.容器.md",
+                    "nav":      "k8s-container",
                     "status":   310,
                     "items":    []
                 },{
                     "category": "TChalla",
-                    "title":    "Mime Types",
-                    "path":     "nginx/mimeTypes.md",
-                    "nav":      "Nginx-mimeTypes",
+                    "title":    "k8s概述",
+                    "path":     "k8s/02.k8s概述.md",
+                    "nav":      "k8s-conceptions",
                     "status":   310,
                     "items":    []
                 }
